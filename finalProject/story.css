@@ -17,8 +17,8 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  top: 25vh;
 }
+
 h1 {
   color: white;
   font-weight: 100;
@@ -57,3 +57,45 @@ h3 {
   font-family: 'Julius Sans One', sans-serif;
 
 }
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.6;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;}
+.overlay a:hover, .overlay a:focus {color: #003AD9;}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    font-size: 40px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 20px;
+    top: 15px;
+    left: 35px;
+  }
