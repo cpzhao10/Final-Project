@@ -1,14 +1,15 @@
 body {
-  background: #333;
+  background: #fff;
 }
 .video-container {
   position: relative;
 }
-video {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
+.section{
+  height: 100vh;
+  width: 100vw;
+  border: 20px solid white;
 }
+
 .overlay-desc {
   background: rgba(0,0,0,0);
   position: absolute;
@@ -19,14 +20,10 @@ video {
 }
 h1 {
   color: white;
-  font-family: 'Nobile', sans-serif;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
   font-size: 9vw;
   text-align: center;
-}
-
-main {
-  margin: 0 auto;
-  width: 80%;
 }
 
 p {
