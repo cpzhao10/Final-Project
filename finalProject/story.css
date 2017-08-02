@@ -14,9 +14,10 @@ body {
   background: rgba(0,0,0,0);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
+  top: 25vh;
 }
 h1 {
   color: white;
@@ -24,6 +25,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 9vw;
   text-align: center;
+  line-height:
 }
 
 p {
@@ -31,4 +33,27 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.7rem;
+}
+a:link, a:visited {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  border: 1px solid white;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:10px;
+}
+.center{
+  text-align: center;
+}
+
+a:hover{
+  background-color: white;
+}
+
+h3 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+
 }
