@@ -40,13 +40,6 @@ h1 {
 video{
   object-fit: cover;
 }
-h2 {
-  color: white;
-  font-weight: 100;
-  font-family: 'Raleway', sans-serif;
-  font-size: 9vw;
-  text-align: center;
-}
 
 p {
   color: white;
@@ -74,12 +67,12 @@ a:hover{
   color: black;
 }
 
-h3 {
+h2 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
 }
 
-h4 {
+h3 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   opacity: 0.5;
