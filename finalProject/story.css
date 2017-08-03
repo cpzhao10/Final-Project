@@ -77,7 +77,12 @@ a:hover{
 h3 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
+}
 
+h4 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.5;
 }
 .overlay {
     height: 100%;
