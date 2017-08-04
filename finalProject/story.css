@@ -37,12 +37,29 @@ h1 {
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
   font-size: 9vw;
+}
+h2 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
 
+h3 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.5;
+}
+h4 {
+    color: white;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
 }
 video{
   object-fit: cover;
 }
-
+.left{
+  margin-left:5vh
+}
 p {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -68,18 +85,6 @@ a:hover{
   background-color: white;
   color: black;
 }
-
-h2 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-h3 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
-  opacity: 0.5;
-}
-
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
