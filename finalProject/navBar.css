@@ -23,7 +23,7 @@ video{object-fit: cover;}
   top: 0;
   left: 0;
   background-color: #ffffff;
-  overflow: hidden;
+  overflow: scroll;
   transition: 0.5s;
   opacity: 0.6;
   z-index: 2;
