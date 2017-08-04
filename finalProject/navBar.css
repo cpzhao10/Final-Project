@@ -1,12 +1,9 @@
-
 body {
   background-image: url("ocean.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-.video-container {position: relative;}
 .overlay-desc {
   background: rgba(0,0,0,0);
   position: absolute;
@@ -16,8 +13,6 @@ body {
   justify-content: center;
   top: 2vh;
 }
-video{object-fit: cover;}
-
 .nav {
   height: 100%;
   top: 0;
@@ -28,23 +23,15 @@ video{object-fit: cover;}
   opacity: 0.6;
   z-index: 2;
 }
-
-.nav-content{
+.nav-content {
   top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 5%;
 }
-
-.nav-section{
-  font-size: 2vw;
-}
-
-.nav-small{
-  font-size: 1vw;
-}
-
-.nav a{
+.nav-section {font-size: 2vw;}
+.nav-small {font-size: 1vw;}
+.nav a {
   font-family: 'Julius Sans One', sans-serif;
   padding: 8px;
   text-decoration: none;
