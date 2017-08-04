@@ -86,13 +86,7 @@ a:hover{
   color: black;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 20px;
-    top: 15px;
-    left: 35px;
-  }
+@media screen and (max-height: 450px) 
 
 .no-gutters {
   margin-right: 0;
