@@ -10,15 +10,26 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
 
     <script type="text/javascript">
       $(document).ready(function() {
         $('#fullpage').fullpage({
           bigSectionsDestination: top,
-          anchors:['home', 'intro1', 'intro2','intro3','intro4','intro5','prob1','prob2','prob3','prob4','prob5','cause1','cause2','cause3','solution1','solution2','solution3','conclusion']
-        });
-      });
+          anchors:['home', 'intro1', 'intro2','intro3','intro4','intro5','prob1','prob2','prob3','prob4','prob5','cause1','cause2','cause3','solution1','solution2','solution3','conclusion']});});
     </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(2000);
+            $("a.transition").click(function(event){
+              event.preventDefault();
+              linkLocation = "navBar.html";
+              $("body").fadeOut(1000, redirectPage); });
+            function redirectPage() {
+              window.location = "navBar.html";}});
+    </script>
+
     <link rel = "stylesheet"
      type = "text/css"
      href = "story.css"/>
@@ -41,10 +52,11 @@
               </div>
             </div>
              <div class="overlay-desc">
-                <span style="padding:4vh;font-size:8vh;cursor:pointer;color:white;" onclick="openNav()">&#8779; </span>
-
+                <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                  <a href="navBar.html" class="transition"> &#8779;</a>
+                </span>
                 <h1 class="center" style="margin-top:20vh">water.</h1>
-                  <div class="center">
+                  <div class="center skip">
                     <a style="margin-bottom:10vh" href="site.html">SKIP STORY</a>
                     <h2>scroll or use arrow keys to view story</h2>
                     <h3>recommended</h3>
@@ -65,6 +77,9 @@
               </div>
             </div>
             <div class="overlay-desc">
+              <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                <a href="navBar.html" class="transition"> &#8779;</a>
+              </span>
               <h1 style="margin-top:40vh;margin-left:5vh">you need it.</h1>
             </div>
 	        </div>
@@ -81,6 +96,9 @@
             </div>
           </div>
           <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
             <h1 style="margin-top:40vh;margin-left:5vh">i need it.</h1>
           </div>
         </div>
@@ -100,6 +118,9 @@
               </div>
             </div>
               <div class="overlay-desc">
+                <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                  <a href="navBar.html" class="transition"> &#8779;</a>
+                </span>
                 <h1 class="center" style="margin-top:40vh">they need it.</h1>
               </div>
           </div>
@@ -131,6 +152,9 @@
               </div>
             </div>
               <div class="overlay-desc">
+                <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                  <a href="navBar.html" class="transition"> &#8779;</a>
+                </span>
                 <div style="margin-top:10vh;margin-left:5vh">
                   <h1>and they need it,</h1>
                   <h1>too.</h1>
@@ -143,13 +167,7 @@
             <div class="container-fluid">
               <div class="row no-gutters">
                 <div style="border-bottom:1vh solid white" class="col-sm-4">
-                  <img style="height:50vh;border-right:1vh solid white;border-bottom:1vh solid white;" src="seal.jpg" alt="seal">
-                </div>
-                <div style="border-bottom:1vh solid white" class="col-sm-4">
-                  <img style="height:50vh;border-left:2vh solid white;border-bottom:1vh solid white;" src="ladybug.jpeg" alt="ladybug">
-                </div>
-                <div style="border-bottom:1vh solid white" class="col-sm-4">
-                  <img style="height:50vh;border-left:2vh solid white;border-bottom:1vh solid white;" src="redpanda.jpeg" alt="red panda">
+                  <img style="height:50vh;border-right:1vh solid white;border-bottom:1vh solid white;" src="seal.jpg" alt="water beads on a leaf">
                 </div>
               </div>
               <div class="row no-gutters">
@@ -168,6 +186,9 @@
               </div>
             </div>
               <div class="overlay-desc">
+                <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                  <a href="navBar.html" class="transition"> &#8779;</a>
+                </span>
                 <div style="margin-top:10vh;margin-left:5vh">
                   <h1>water is essential</h1>
                   <h1>for life.</h1>
@@ -188,10 +209,7 @@
         <div class="section">Section 17</div>
         <div class="section">Section 18</div>
     </div>
-    <script>
-      function openNav() {document.getElementById("myNav").style.width = "100%";}
-      function closeNav() {document.getElementById("myNav").style.width = "0%";}
-    </script>
+
 <div id="footer">
 
 </body>
