@@ -66,7 +66,7 @@ p {
   font-size: 1.1rem;
   line-height: 1.7rem;
 }
-a:link, a:visited {
+.skip a:link, a:visited {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 900;
   border: 1px solid white;
@@ -80,10 +80,26 @@ a:link, a:visited {
   text-align: center;
 }
 
-a:hover{
+.skip a:hover{
   opacity: 0.5;
   background-color: white;
   color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+h2 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.5;
 }
 
 @media screen and (max-height: 450px) {
