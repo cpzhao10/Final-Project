@@ -142,3 +142,9 @@ a:hover{
 .white_text p {
   color:white;
 }
+
+.textbox2{
+  width: 20vw;
+  height: 50vh;
+  text-align: center;
+}
