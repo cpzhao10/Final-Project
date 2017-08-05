@@ -75,15 +75,16 @@ h6 {
   font-family: 'Rajdhani', sans-serif;
 }
 
+p {
+  color: #004472;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5vh;
+}
+
 video{
   object-fit: cover;
 }
 
-p {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.25vh;
-}
 .skip a:link, a:visited {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 900;
@@ -132,10 +133,9 @@ a:hover{
 .ml-0 {
   margin-left:0 !important;
 }
+
 .textbox{
-  width: 50vw;
-  height: 100vh;
-  padding: 1vh;
-  border: 3px solid #004472;
-  margin: 2vh;
+  width: 25vw;
+  height: 50vh;
+  text-align: center;
 }
