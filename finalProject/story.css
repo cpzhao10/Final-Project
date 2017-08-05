@@ -41,17 +41,19 @@ h1 {
   color: white;
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
-  font-size: 9vw;
+  font-size: 15vh;
 }
 h2 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 3vh;
 }
 
 h3 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
+  color: #004472;
+  font-family: 'BenchNine', sans-serif;
   opacity: 0.5;
+  font-size: 5vh;
 }
 h4 {
     color: white;
@@ -64,8 +66,15 @@ h5 {
   font-weight: 100;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3vw;
-
 }
+
+h6 {
+  color: #004472;
+  font-weight: 900;
+  font-size: 8vh;
+  font-family: 'Rajdhani', sans-serif;
+}
+
 video{
   object-fit: cover;
 }
@@ -73,18 +82,18 @@ video{
 p {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.7rem;
+  font-size: 0.25vh;
 }
 .skip a:link, a:visited {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 900;
   border: 1px solid white;
   color: white;
-  padding: 14px 25px;
+  padding: 2vh;
   text-decoration: none;
   display: inline-block;
   border-radius:10px;
+  font-size: 2vh;
 }
 .center{
   text-align: center;
@@ -93,7 +102,7 @@ p {
   margin-left:5vh;
 }
 .right{
-  margin-right: 5vh;
+  margin-right: 1vh;
   text-align: right;
 }
 .skip a:hover{
@@ -107,16 +116,6 @@ a:hover{
   opacity: 0.5;
 }
 
-h2 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-h3 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
-  opacity: 0.5;
-}
 
 @media screen and (max-height: 450px)
 
@@ -132,4 +131,11 @@ h3 {
 }
 .ml-0 {
   margin-left:0 !important;
+}
+.textbox{
+  width: 50vw;
+  height: 100vh;
+  padding: 1vh;
+  border: 3px solid #004472;
+  margin: 2vh;
 }
