@@ -53,7 +53,7 @@ h3 {
   color: #004472;
   font-family: 'BenchNine', sans-serif;
   opacity: 0.5;
-  font-size: 5vh;
+  font-size: 3vw;
 }
 h4 {
     color: white;
@@ -71,7 +71,7 @@ h5 {
 h6 {
   color: #004472;
   font-weight: 900;
-  font-size: 8vh;
+  font-size: 9vh;
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -100,10 +100,10 @@ video{
   text-align: center;
 }
 .left{
-  margin-left:5vh;
+  margin-left: 3vw;
 }
 .right{
-  margin-right: 1vh;
+  margin-right: 3vw;
   text-align: right;
 }
 .skip a:hover{
@@ -116,7 +116,6 @@ a:hover{
   text-decoration: none;
   opacity: 0.5;
 }
-
 
 @media screen and (max-height: 450px)
 

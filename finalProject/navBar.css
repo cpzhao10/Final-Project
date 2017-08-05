@@ -30,10 +30,10 @@ video{object-fit: cover;}
 }
 
 .nav-content{
-  top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .nav-section{

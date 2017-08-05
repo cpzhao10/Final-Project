@@ -1,24 +1,30 @@
 <!DOCTYPE html>
+<!--Cindy, Hannah, Jessica, Anshu-->
+<!--WAW:Water Awareness Website-->
 <html>
 <head>
+<!--Bootstrap responsive grid-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--Javascript fullpage.js-->
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendors/jquery.easings.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
+<!--Animation-->
     <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
-
+<!--Script for fullpage.js-->
     <script type="text/javascript">
       $(document).ready(function() {
         $('#fullpage').fullpage({
           bigSectionsDestination: top,
           controlArrows: false,
-          anchors:['home', 'intro1', 'intro2','intro3','intro4','intro5','prob1','prob2','prob3','prob4','prob5','cause1','cause2','cause3','solution1','solution2','solution3','conclusion']});});
+          anchors:['home', 'intro1', 'intro2','intro3','intro4','intro5','prob1','prob2','prob3','prob4','prob5','cause1','cause2','cause3','solution1','solution2','solution3','solution4','conclusion']});});
     </script>
+<!--Page animations-->
     <script type="text/javascript">
         $(document).ready(function() {
             $("body").css("display", "none");
@@ -30,7 +36,7 @@
             function redirectPage() {
               window.location = "navBar.html";}});
     </script>
-
+<!--Linking CSS-->
     <link rel = "stylesheet"
      type = "text/css"
      href = "story.css"/>
@@ -43,12 +49,12 @@
 <!--Home-->
         <div class="section">
           <div class="video-container">
-            <div class="container-fluid">
-              <div class="row no-gutters">
-                <div class="col-sm-4">
-                  <video style="100vw" data-autoplay loop>
+            <div class="container-fluid"> <!--Needed to allow responsive pages-->
+              <div class="row no-gutters"> <!--Needed to allow responsive pages-->
+                <div class="col-md-12"> <!--Needed to allow responsive pages-->
+                  <video style="width:100vw" data-autoplay loop>
                     <source data-src="OceanElementalFootage.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
+                      Your browser does not support this streaming content. <!--Will show if the browser doesn't support the file type-->
                   </video>
                 </div>
               </div>
@@ -94,7 +100,7 @@
           <div class="container-fluid">
             <div class="row no-gutters">
               <div class="col-sm-4">
-                <video data-autoplay loop>
+                <video style="width:100vw" data-autoplay loop>
                   <source data-src="OceanElementalFootage.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -113,13 +119,13 @@
           <div class="video-container">
             <div class="container-fluid">
               <div class="row no-gutters">
-                <div class="col-sm-4">
+                <div class="col-md-4"> <!--The total number of columns is 12, so the last number means how many columns this image should take up. If you want 3 equal images, the last number will be 4-->
                   <img style="height:100vh;border-bottom:1vh solid white;" src="fish.jpeg" alt="koi fish">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <img style="height:100vh;border-right:1vh solid white;border-left:2vh solid white;border-bottom:1vh solid white;" src="peacock.jpeg" alt="peacock">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <img style="height:100vh;border-left:2vh solid white; border-bottom: 1vh solid white" src="lions.jpeg" alt="lions">
                 </div>
               </div>
@@ -287,8 +293,8 @@
                     <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
                       <a href="navBar.html" class="transition"> &#8779;</a>
                     </span>
-                    <h6 style="line-height:8%" class="right">8,000,000<h6>
-                    <h3 class="right">METRIC TONS OF PLASTIC IN THE OCEAN</h3>
+                    <h6 style="margin-right:1vw;line-height:8%" class="right">8,000,000<h6>
+                    <h3 style="margin-right:1vw;" class="right">METRIC TONS OF PLASTIC IN THE OCEAN</h3>
                     <h4 style="margin-top:25vh;font-size:5vw" class="left">the cause of water pollution</h4>
                     <h5 class="left">and harm to water ecosystems</h5>
                     <h5 style="margin-top:13vh"class="right">range from small actions such as throwing a plastic bottle</h5>
@@ -305,7 +311,7 @@
                     <img style="height:45vh"src="trashmountain.jpeg" alt="mountain of trash">
                   </div>
                   <div class="col-md-4">
-                      <img src="textoutlineblue.png" style="height:45vh;width:31vw;border-left:2vh solid white">
+                      <img src="textoutlineblue.png" style="height:45vh;width:31.8vw;border-left:2vh solid white">
                   </div>
                 </div>
                 <div class="row no-gutters">
@@ -325,11 +331,10 @@
               </div>
             </div>
             <div class="overlay-desc">
-              <div style="margin-left:70vw;margin-top:4vh" class="textbox">
+              <div style="margin-left:71vw;margin-top:4vh" class="textbox">
                 <p>	&#9670; &#9670; &#9670;</p>
                 <p>A lot of different things are being thrown into rivers, lakes, and oceans that don’t belong there.</p>
                 <br>
-
                 <p>This includes chemicals, oil, industrial waste, radioactive waste, sewage, garbage, and so many more unimaginable things.</p>
                 <p>	&#9670; &#9670; &#9670;</p>
               </div>
@@ -339,10 +344,13 @@
             </div>
           </div>
 <!--Causes 3-->
-          <div class="section">Section 14
+          <div class="section">
             <div class="video-container">
               <div class="container-fluid">
                 <div class="row no-gutters">
+                  <div class="col-md-6">
+
+                  </div>
                 </div>
               </div>
                 <div class="overlay-desc">
@@ -353,16 +361,23 @@
             </div>
           </div>
 <!--Solution 1-->
-          <div class="section">Section 15
+          <div class="section">
             <div class="video-container">
               <div class="container-fluid">
                 <div class="row no-gutters">
+                  <div class="col-md-12">
+                    <video style="width: 100vw;" data-autoplay loop muted>
+                      <source data-src="cliffwater.mp4" type="video/mp4">
+                        Your browser does not support this streaming content.
+                    </video>
+                  </div>
                 </div>
               </div>
                 <div class="overlay-desc">
                   <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
                     <a href="navBar.html" class="transition"> &#8779;</a>
                   </span>
+                  <h4 style="margin-top:50vh" class="right">so what can you do?<h4>
                 </div>
             </div>
           </div>
@@ -394,8 +409,22 @@
                 </div>
             </div>
           </div>
-<!--Conclusion-->
+<!--Solution 4-->
           <div class="section">Section 18
+            <div class="video-container">
+              <div class="container-fluid">
+                <div class="row no-gutters">
+                </div>
+              </div>
+                <div class="overlay-desc">
+                  <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                    <a href="navBar.html" class="transition"> &#8779;</a>
+                  </span>
+                </div>
+            </div>
+          </div>
+<!--Conclusion-->
+          <div class="section">Section 19
             <div class="video-container">
               <div class="container-fluid">
                 <div class="row no-gutters">
