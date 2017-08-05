@@ -138,3 +138,7 @@ a:hover{
   height: 50vh;
   text-align: center;
 }
+
+.white_text p {
+  color:white;
+}
