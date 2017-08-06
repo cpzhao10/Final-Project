@@ -152,4 +152,19 @@ a:hover{
 p:hover {
   font-size: 3vh;
 }
-.bigger
+
+.borderleft{
+  border-left: 2vh solid white;
+}
+.borderbottom{
+  border-bottom: 2vh solid white;
+}
+.halfvh{
+  height: 50vh;
+}
+.fullvh{
+  height: 100vh;
+}
+.fullvw{
+  width: 100vw;
+}
