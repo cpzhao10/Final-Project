@@ -148,3 +148,8 @@ a:hover{
   height: 50vh;
   text-align: center;
 }
+
+p:hover {
+  font-size: 3vh;
+}
+.bigger
