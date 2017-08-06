@@ -50,7 +50,7 @@
         <div class="section">
           <div class="video-container">
             <div class="container-fluid"> <!--Needed to allow responsive pages-->
-              <div class="row no-gutters"> <!--Needed to allow responsive pages-->
+              <div class="row no-gutters borderbottom"> <!--Needed to allow responsive pages-->
                 <div class="col-md-12"> <!--Needed to allow responsive pages-->
                   <video class="fullvw" data-autoplay loop>
                     <source data-src="OceanElementalFootage.mp4" type="video/mp4">
@@ -78,9 +78,9 @@
         <div class="section">
           <div class="video-container">
             <div class="container-fluid">
-              <div class="row no-gutters">
+              <div class="row no-gutters borderbottom">
                 <div class="col-sm-4">
-                  <video data-autoplay loop>
+                  <video class="fullvw" data-autoplay loop>
                     <source data-src="Street.mp4" type="video/mp4">
                       Your browser does not support this streaming content.
                   </video>
@@ -154,7 +154,7 @@
                   </video>
                 </div>
               </div>
-              <div class="row no-gutters">
+              <div class="row no-gutters borderbottom">
                 <div class="col-md-4">
                   <img class="halfvh" src="waterbeadsplant.jpg" alt="water beads on a leaf">
                 </div>
@@ -175,7 +175,7 @@
                 </span>
                 <div class="left">
                   <h4>and they</h4>
-                  <h4>need it,too.</h4>
+                  <h4>need it, too.</h4>
                 </div>
               </div>
           </div>
@@ -280,7 +280,7 @@
           <div class="section">
               <div class="video-container">
                 <div class="container-fluid">
-                  <div class="row no-gutters">
+                  <div class="row no-gutters borderbottom">
                     <div class="col-sm-4">
                       <video class="fullvw" data-autoplay loop muted>
                         <source data-src="bottleonbeach.mp4" type="video/mp4">
@@ -290,26 +290,26 @@
                   </div>
                 </div>
                   <div class="overlay-desc">
-                    <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
-                      <a href="navBar.html" class="transition"> &#8779;</a>
-                    </span>
                     <div class="video-container">
-                      <img class="left" style="margin-top:5vh;height:25vh;width:28vw"src="textoutlinewhite2.png">
-                    </div>
-                    <div class="overlay-desc">
-                      <div style="margin-top:19vh;margin-left:4.5vw;" class="textbox white_text">
-                        <hr color="white" width="60vw"> <!--Statistics are denoted by a white bar, text, and another white bar-->
-                        <p>8,000,000 metric tons of plastic was dumped in the ocean last year</p>
-                        <hr color="white" width="60vw">
+                      <img class="left" style="margin-top:15vh;height:25vh;width:28vw"src="textoutlinewhite2.png">
+                      <div class="overlay-desc">
+                        <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                          <a href="navBar.html" class="transition"> &#8779;</a>
+                        </span>
+                        <div style="margin-top:9vh;margin-left:4.5vw;" class="textbox white_text">
+                          <hr color="white" width="60vw"> <!--Statistics are denoted by a white bar, text, and another white bar-->
+                          <p>8,000,000 metric tons of plastic was dumped in the ocean last year</p>
+                          <hr color="white" width="60vw">
+                        </div>
                       </div>
+                      <h4 style="margin-top:5vh;font-size:5vw" class="left">the cause of water pollution</h4>
+                      <h5 class="left">and harm to water ecosystems</h5>
+                      <h5 style="margin-top:10vh"class="right">range from small actions such as throwing a plastic bottle</h5>
+                      <h5 class="right">into the ocean to large actions such as oil spills.</h5>
                     </div>
-                    <h4 style="margin-top:7vh;font-size:5vw" class="left">the cause of water pollution</h4>
-                    <h5 class="left">and harm to water ecosystems</h5>
-                    <h5 style="margin-top:10vh"class="right">range from small actions such as throwing a plastic bottle</h5>
-                    <h5 class="right">into the ocean to large actions such as oil spills.</h5>
                   </div>
+                </div>
               </div>
-            </div>
 <!--Causes 2-->
           <div class="section">
             <div class="video-container">
@@ -322,19 +322,20 @@
                       <img class="borderleft" src="textoutlineblue.png" style="height:45vh;width:31.8vw;">
                   </div>
                 </div>
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img style="height:53vh;" src="shoppingcartriver.jpg">
-                  </div>
-                  <div class="col-md-3">
-                    <img class="borderleft" style="height:53vh;" src="bikeriver.jpg" alt="bike in river">
-                  </div>
+                <div class="row no-gutters borderbottom">
                   <div class="col-md-5">
-                    <video class="borderleft" style="height:53vh;" data-autoplay loop muted>
+                    <video style="height:53vh;" data-autoplay loop muted>
                       <source data-src="emptyintostream.mp4" type="video/mp4">
                         Your browser does not support this streaming content.
                     </video>
                   </div>
+                  <div class="col-md-4">
+                    <img class="borderleft" style="height:53vh;" src="shoppingcartriver.jpg">
+                  </div>
+                  <div class="col-md-3">
+                    <img class="borderleft" style="height:53vh;" src="bikeriver.jpg" alt="bike in river">
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -349,13 +350,23 @@
                 <p>This includes chemicals, oil, industrial waste, radioactive waste, sewage, garbage, and so many more unimaginable things.</p>
                 <p>	&#9670; &#9670; &#9670;</p>
               </div>
+              <div class="video-container">
+                <img style="margin-left:10vw;margin-top:7vh;height:25vh;width:29vw" src="textoutlinewhite2.png">
+                <div style="margin-left:12vw;margin-top:7.5vh"class="overlay-desc">
+                  <div class="textbox white_text">
+                  <hr color="white" width="60vw">
+                  <p>70% of industrial waste is dumped, untreated, into the water in developing countries.</p>
+                  <hr color="white" width="60vw">
+                </div>
+                </div>
+              </div>
             </div>
           </div>
 <!--Causes 3-->
           <div class="section">
             <div class="video-container">
               <div class="container-fluid">
-                <div class="row no-gutters">
+                <div class="row no-gutters borderbottom">
                   <div class="col-md-7">
                     <img class="fullvw" src="deadfish.jpg" alt="dead fish">
                   </div>
@@ -394,7 +405,7 @@
               <div class="container-fluid">
                 <div class="row no-gutters">
                   <div class="col-md-12">
-                    <video class="fullvw" data-autoplay loop muted>
+                    <video class="fullvw borderbottom" data-autoplay loop muted>
                       <source data-src="cliffwater.mp4" type="video/mp4">
                         Your browser does not support this streaming content.
                     </video>
@@ -413,7 +424,7 @@
           <div class="section">
             <div class="video-container">
               <div class="container-fluid">
-                <div class="row no-gutters">
+                <div class="row no-gutters borderbottom">
                   <div class="col-md-8">
                     <img class="fullvh" src="waterspouts.jpg" alt="water fountains">
                   </div>
@@ -461,26 +472,26 @@
           <div class="section">
             <div class="video-container">
               <div class="container-fluid">
-                <div class="row no-gutters">
+                <div class="row no-gutters borderbottom">
                   <div class="col-md-4">
-                    <img class="borderbottom" style="height:45vh;" src="trashfield.jpg" alt="trash field">
+                    <img style="height:45vh;" src="trashfield.jpg" alt="trash field">
                   </div>
                   <div class="col-md-4">
-                    <img class="borderleft borderbottom" style="height:45vh;" src="liquorbottle.jpg" alt="case of alcohol bottles">
+                    <img class="borderleft" style="height:45vh;" src="liquorbottle.jpg" alt="case of alcohol bottles">
                   </div>
                   <div class="col-md-4">
-                    <img class="borderleft borderbottom" style="height:45vh;width:31.8vw;" src="textoutlineblue.png">
+                    <img class="borderleft" style="height:45vh;width:31.8vw;" src="textoutlineblue.png">
                   </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row no-gutters borderbottom">
                   <div class="col-md-8">
-                    <video style="height:48vh;" data-autoplay loop>
+                    <video style="height:54vh;" data-autoplay loop>
                       <source data-src="partygarbagehalf.mp4" type="video/mp4">
                         Your browser does not support this streaming content.
                     </video>
                   </div>
                   <div class="col-md-4">
-                    <img class="halfvh borderleft" src="garbagebag.jpg" alt="garbage bag">
+                    <img class="borderleft" style="height:54vh" src="garbagebag.jpg" alt="garbage bag">
                   </div>
                 </div>
               </div>
