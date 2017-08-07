@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Cindy, Hannah, Jessica, Anshu-->
+<!--WAW:Water Awareness Website-->
+<html>
+<head>
+<!--Bootstrap responsive grid-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--Javascript fullpage.js-->
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+<!--Animation-->
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          menu: '#menu',
+          bigSectionsDestination: top,
+          autoScrolling: false,
+          controlArrows: false,
+          css3: true,
+          anchors:['intro','issue','solution',]});});
+    </script>
+    <link rel = "stylesheet"
+     type = "text/css"
+     href = "water.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Josefin+Sans|Raleway|Rajdhani|BenchNine" rel="stylesheet">
+</head>
+<body>
+<ul id="menu" class="menu">
+  	<li data-menuanchor="firstPage" class="active"><a href="#intro">Introduction</a></li>
+  	<li data-menuanchor="secondPage"><a href="#issue">The Issue</a></li>
+  	<li data-menuanchor="thirdPage"><a href="#solution">Solution</a></li>
+  	<li data-menuanchor="fourthPage"><a href="#fourthPage">Resources</a></li>
+    <li data-menuanchor="fourthPage"><a href="#fourthPage">About Us</a></li>
+    <li data-menuanchor="fourthPage"><a href="#fourthPage">Back to the Story</a></li>
+</ul>
+  <div id="fullpage">
+  	<div class="section">Some section</div>
+  	<div class="section">Some section</div>
+  	<div class="section">Some section</div>
+  	<div class="section">Some section</div>
+  </div>
+</body>
+</html>
