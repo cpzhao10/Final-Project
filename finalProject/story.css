@@ -47,6 +47,7 @@ h2 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 3vh;
+  font-weight: 600;
 }
 h3 {
   color: white;
@@ -86,7 +87,7 @@ video{
   text-decoration: none;
   display: inline-block;
   border-radius:10px;
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 .center{
   text-align: center;
@@ -102,11 +103,13 @@ video{
   opacity: 0.5;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 a:hover{
   text-decoration: none;
   opacity: 0.5;
+  cursor:pointer;
 }
 
 @media screen and (max-height: 450px)
