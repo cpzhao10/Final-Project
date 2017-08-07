@@ -168,3 +168,6 @@ p:hover {
 .fullvw{
   width: 100vw;
 }
+.nohover p{
+  font-size: 2.5vh;
+}
