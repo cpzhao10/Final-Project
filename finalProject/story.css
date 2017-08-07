@@ -50,10 +50,10 @@ h2 {
 }
 
 h3 {
-  color: #004472;
-  font-family: 'BenchNine', sans-serif;
-  opacity: 0.5;
-  font-size: 3vw;
+  color: white;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5vw;
 }
 h4 {
     color: white;
