@@ -43,7 +43,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 15vh;
 }
-h2 {
+h2 6
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 3vh;
@@ -66,13 +66,6 @@ h5 {
   font-weight: 100;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3vw;
-}
-
-h6 {
-  color: #004472;
-  font-weight: 900;
-  font-size: 9vh;
-  font-family: 'Rajdhani', sans-serif;
 }
 
 p {
