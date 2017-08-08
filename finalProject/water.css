@@ -104,3 +104,6 @@ img {
   width: 3vw;
   height: auto;
 }
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
