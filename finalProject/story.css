@@ -163,7 +163,7 @@ p:hover {
 .fullvw{
   width: 100vw;
 }
-.nohover p{
+.nohover p:hover{
   font-size: 2.5vh;
 }
 .overlay {
