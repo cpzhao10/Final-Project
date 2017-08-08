@@ -17,7 +17,6 @@ p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1vw;
 }
-
 #menu {
     top: 0;
     left: 0;
@@ -27,6 +26,7 @@ p {
     padding: 0;
     z-index: 70;
     position: fixed;
+    background-color: #055C70;
 }
 
 ul {
@@ -57,4 +57,9 @@ li {
 }
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
+}
+.logosmall {
+  float: left;
+  width: 3vw;
+  height: auto;
 }
