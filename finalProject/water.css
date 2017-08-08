@@ -13,11 +13,11 @@
     padding: 0;
     z-index: 70;
     position: fixed;
+    background-color: #055C70;
 }
 
 ul {
   list-style: none;
-  background-color: #055C70;
   text-align: center;
 }
 
