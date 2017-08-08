@@ -107,3 +107,8 @@ img {
 a, a:hover, a:active, a:visited, a:focus {
    text-decoration:none;
 }
+
+.ref a, a:hover, a:active, a:visited, a:focus{
+  text-decoration: none;
+  color: #055C70;
+}
