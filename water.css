@@ -1,0 +1,109 @@
+ body {
+  background-image: url("water.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#menu {
+    top: 0;
+    left: 0;
+    height: 4.5vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 70;
+    position: fixed;
+    background-color: #055C70;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 1vh;
+}
+
+.menu a {
+  font-weight: 900;
+  color: white;
+  padding: 2vh;
+  font-size: 2vh;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+
+.menu a:active {
+    background-color: #b0e0e6;
+}
+
+p {
+  color: #055C70;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5vw;
+  background-color: rgba(225, 225, 225, 0.7);
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.textbox {
+  width: 70vw;
+  margin: auto;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  top: 2vh;
+}
+
+.container {
+  position: relative;
+}
+
+img {
+  height: 30vh;
+  width: auto;
+}
+
+.centerimg {
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  width: 5vw;
+  height: auto;
+}
+
+.logosmall {
+  float: left;
+  width: 3vw;
+  height: auto;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<!--Cindy, Hannah, Jessica, Anshu-->
+<!--WAW:Water Awareness Website-->
+<html>
+<head>
+<!--Bootstrap responsive grid-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--Javascript fullpage.js-->
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+<!--Animation-->
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <title>W.A.W. Story</title>
+<!--Icon-->
+  <link rel="shortcut icon" href="waves.ico"/>
+<!--Script for fullpage.js-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          bigSectionsDestination: top,
+          controlArrows: false,
+          anchors:['home', 'intro1', 'intro2','intro3','intro4','intro5','prob1','prob2','prob3','prob4','prob5','cause1','cause2','cause3','solution1','solution2','solution3','solution4','conclusion']});});
+    </script>
+<!--Page animations-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(2000);
+            $("a.transition").click(function(event){
+              event.preventDefault();
+              linkLocation = "navBar.html";
+              $("body").fadeOut(1000, redirectPage); });
+            function redirectPage() {
+              window.location = "navBar.html";}});
+    </script>
+<!--Linking CSS-->
+    <link rel = "stylesheet"
+     type = "text/css"
+     href = "index.css"/>
+     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Josefin+Sans|Raleway|Rajdhani|BenchNine" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="fullpage">
+<!--Home-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid"> <!--Needed to allow responsive pages-->
+            <div class="row no-gutters borderbottom"> <!--Needed to allow responsive pages-->
+              <div class="col-md-4"> <!--Needed to allow responsive pages-->
+                <video class="fullvw" data-autoplay loop>
+                  <source data-src="OceanElementalFootage.mp4" type="video/mp4">
+                    Your browser does not support this streaming content. <!--Will show if the browser doesn't support the file type-->
+                </video>
+              </div>
+            </div>
+          </div>
+           <div class="overlay-desc">
+              <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                <a href="navBar.html" class="transition"> &#8779;</a>
+              </span>
+              <h1 class="center" style="margin-top:20vh">water.</h1>
+                <div class="center skip">
+                <br> <br> <br>
+                  <a style="margin-bottom:10vh;opacity:0.55;" href="water.html">SKIP STORY</a>
+                  <div style="margin-top:9vh">
+                    <h2>scroll or use arrow keys to view story</h2>
+                    <h2 style="font-size:2.5vh;opacity:0.5">recommended</h3>
+                    <div class="overlay">
+                      <h4 align="right" style="font-size:3.5vh;opacity:0.8">W . A . W . <span><img class="right" style="padding:.5vw;float:right;height:9vh" src="waves.png"></span><br><span style="font-size:2.5vh">Water Awareness Website</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+<!--Intro 1-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-sm-4">
+                <video class="fullvw" data-autoplay loop>
+                  <source data-src="Street.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <h4 class="left" style="margin-top:40vh;">you need it.</h4>
+          </div>
+        </div>
+      </div>
+<!--Intro 2-->
+      <div class="section">
+        <div class="container-fluid">
+          <div class="row no-gutters">
+            <div class="col-sm-4">
+              <img class="fullvw borderbottom" src="FinalPicGroup2.png" alt="Us">
+            </div>
+          </div>
+        </div>
+        <div class="overlay-desc">
+          <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+            <a href="navBar.html" class="transition"> &#8779;</a>
+          </span>
+          <h4 class="left" style="margin-top:40vh;">i need it.</h4>
+        </div>
+      </div>
+<!--Intro 3-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-4"> <!--The total number of columns is 12, so the last number means how many columns this image should take up. If you want 3 equal images, the last number will be 4-->
+                <img class="fullvh"src="fish.jpeg" alt="koi fish">
+              </div>
+              <div class="col-md-4">
+                <img class="fullvh borderleft" src="peacock.jpeg" alt="peacock">
+              </div>
+              <div class="col-md-4">
+                <img class="fullvh borderleft" src="lions.jpeg" alt="lions">
+              </div>
+            </div>
+          </div>
+            <div class="overlay-desc">
+              <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                <a href="navBar.html" class="transition"> &#8779;</a>
+              </span>
+              <div class="left" style="margin-top:20vh">
+                <h4>they</h4>
+                <h4>need</h4>
+                <h4>it.</h4>
+              </div>
+            </div>
+        </div>
+      </div>
+<!--Intro 4-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="borderbottom col-md-12">
+                <video style="height:55vh" data-autoplay loop>
+                  <source data-src="rainonplantshalf.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-4">
+                <img class="halfvh" src="waterbeadsplant.jpg" alt="water beads on a leaf">
+              </div>
+              <div class="col-md-4">
+                <video class="halfvh borderleft" data-autoplay loop>
+                  <source data-src="raindrops_on_leaves.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+              <div class="col-md-4">
+                <img class="halfvh borderleft" src="waterbeads2.jpg" alt="water beads on a leaf">
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+              <span style="padding-left:4vh;padding-top:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                <a href="navBar.html" class="transition"> &#8779;</a>
+              </span>
+              <div class="left">
+                <h4>and they</h4>
+                <h4>need it too.</h4>
+              </div>
+            </div>
+        </div>
+      </div>
+<!--Intro 5-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-4 borderbottom">
+                <img class="halfvh" src="seal.jpg" alt="water beads on a leaf">
+              </div>
+              <div class="col-md-4">
+                <img class="halfvh borderleft" src="daisy_flower.jpg" alt="fire daisy">
+              </div>
+              <div class="col-md-4">
+                <img class="halfvh borderleft" src="redpanda.jpeg" alt="red panda">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <video class="halfvh" data-autoplay loop>
+                  <source data-src="boat.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+              <div class="col-md-4">
+                <img class="halfvh borderleft" src="raintree.jpg" alt="tree leaves">
+              </div>
+            </div>
+          </div>
+            <div class="overlay-desc">
+              <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                <a href="navBar.html" class="transition"> &#8779;</a>
+              </span>
+              <div class="left" style="margin-top:50vh;">
+                <h4>water is essential</h4>
+                <h4>for life.</h4>
+              </div>
+            </div>
+        </div>
+      </div>
+<!--Problem 1-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-sm-12">
+                <video class="fullvw borderbottom" data-autoplay loop>
+                  <source data-src="waterpollution.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+            <div class="overlay-desc">
+              <div class="video-container">
+                <img class="center" style="height:28vh;width:27vw;margin-top:35vh;margin-left:69vw" src="textoutlinewhite2.png">
+                <img class="center" style="clear:both;height:26vh;width:25vw;margin-top:2vh;margin-left:11vw" src="textoutlinewhite2.png">
+                <div class="overlay-desc">
+                  <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                    <a href="navBar.html" class="transition"> &#8779;</a>
+                  </span>
+                  <h3 style="margin-top:6vh;" class="left">But all around the world, water</h3>
+                  <h3 class="left">in lakes, rivers, oceans, and other places</h3>
+                  <h3 class="left">are being affected by our actions.</h3>
+                  <div style="clear:both;margin-left:13.5vw;margin-top:32vh;float:left;" class="textbox2 white_text">
+                    <p>&#9670; &#9670; &#9670;</p>
+                    <p>Our resources of drinkable water are running out.</p>
+                    <p>&#9670; &#9670; &#9670;</p>
+                  </div>
+                  <div style="margin-top:2vh;margin-left:70vw;" class="textbox white_text">
+                    <hr color="white" width="60vw">
+                    <p>Although the Earth is 70% water, only 2.5% of that is freshwater. Of that 2.5%, only 1% of it is easily accessible. That 1%- we pollute it, we contaminate it, we waste it.</p>
+                    <hr color="white" width="60vw">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Problem 2-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-6 borderbottom">
+                <img class="halfvh" src="beachtrash.JPG" alt="trash on a beach">
+              </div>
+              <div class="col-md-6">
+                <img class="halfvh borderleft" src="polarbearonthinice.jpg" alt="polar bear on thin, melting ice">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <img class="borderbottom halfvh" src="breakingice.jpg" alt="melting ice glacier">
+              </div>
+            </div>
+            <div class="overlay-desc">
+              <div class="video-container">
+                <img class="center borderleft" style="height:43.92vh;width:44vw;margin-top:50vh;margin-left:55vw" src="textoutlineblue.png">
+                <div class="overlay-desc">
+                  <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                    <a href="navBar.html" class="transition"> &#8779;</a>
+                  </span>
+                  <div style="margin-left:65vw;margin-top:46.5vh;" class="textbox">
+                    <p>&#9670; &#9670; &#9670;</p>
+                    <p>The water is being polluted by trash and absorbing so many carbon emissions that the oceans are becoming acidic. This along with the rising ocean temperatures melt the sea ice, which cause sea levels to rise.</p>
+                    <p>&#9670; &#9670; &#9670;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Problem 3-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img class="halfvh borderbottom" src="oilbird.jpg" alt="bird covered in oil">
+                <img class="halfvh borderbottom" src="entangledturtle.jpg" alt="turtle entangled in pollution">
+              </div>
+              <div class="col-md-8">
+                <img class="fullvh borderleft borderbottom" src="coralbleaching.jpg" alt="bleached coral">
+              </div>
+            </div>
+            <div class="overlay-desc">
+              <div class="video-container">
+                <img class="center" style="height:32vh;width:26vw;margin-top:58vh;margin-left:35.5vw" src="textoutlinewhite2.png">
+                <img class="center" style="height:30vh;width:22vw;margin-top:0vh;margin-left:14.5vw" src="textoutlinewhite2.png">
+                <div class="overlay-desc">
+                  <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;float:left;">
+                    <a href="navBar.html" class="transition"> &#8779;</a>
+                  </span>
+                  <div class="center white_text">
+                    <h3 style="margin-top:3vh; margin-left:35vw;">Ocean acidification also affects wildlife both in the water and on land.</h3>
+                    <div class="textbox2" style="height:30vh;margin-top:17vh;margin-left:77.25vw;">
+                      <p>&#9670; &#9670; &#9670;</p>
+                      <p>They are being entangled in the trash, eating the garbage, mutating from the chemicals, and dying from all the effects of our pollution.</p>
+                      <p>&#9670; &#9670; &#9670;</p>
+                    </div>
+                    <div class="textbox" style="margin-left:36vw;margin-top:0vh;">
+                      <p>&#9670; &#9670; &#9670;</p>
+                      <p>The increase in acidity has harmful consequences, such as decreasing immune responses in some organisms. It also contributes to coral bleaching.</p>
+                      <p>&#9670; &#9670; &#9670;</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Problem 4-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <img src="bangladesh.JPG" alt="A woman at a river in Bangladesh" class="halfvh borderbottom">
+              </div>
+              <div class="col-md-4">
+                <img src="birddrinking.jpeg" alt="pigeon drinking dirty water" class="halfvh borderleft borderbottom">
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-sm-3">
+                <img style="height:46vh;width:24vw;" src="textoutlineblue.png">
+              </div>
+              <div class="col-sm-6">
+                <img src="africanriver.jpg" alt="East Africans on the bank of a river" class="halfvh">
+              </div>
+              <div class="col-sm-3">
+                <img style="height:46vh;width:24vw;" src="textoutlineblue.png" class="borderleft">
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <div class="textbox" style="margin-left:3vw;margin-top:63vh;width:20vw;height:20vh;">
+              <p>&#9670; &#9670; &#9670;</p>
+              <p>Polluting the water increases likelihood of the water containing diseases.</p>
+              <p>&#9670; &#9670; &#9670;</p>
+            </div>
+          </div>
+          <div class="overlay2">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div style="margin-top:53vh;margin-left:77.5vw;width:20vw;height:20vh;" class="textbox">
+              <hr width="60vw" style="border-color:#004472">
+              <p>Every minute a child dies of a water-related disease and they are the number one cause of death of children below 5 years old.</p>
+              <hr width="60vw" style="border-color:#004472">
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Problem 5-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="erosion.jpg" alt="erosion on the coast" class="borderbottom" style="height:60vh">
+                <img src="textoutlineblue.png" class="borderbottom" style="height:37.8vh;width:33vw">
+              </div>
+              <div class="col-md-8">
+                <img src="beachworkers.JPG" class="fullvh borderbottom borderleft" alt="restaurants and companies on the coast">
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <div class="video-container">
+              <img class="center" style="height:28vh;width:24vw;margin-top:24vh;margin-left:48vw" src="textoutlinewhite2.png">
+              <div class="overlay-desc">
+                <div class="video-container">
+                  <div class="overlay-desc">
+                    <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                      <a href="navBar.html" class="transition"> &#8779;</a>
+                    </span>
+                    <div class="textbox white_text" style="width:22vw;float:right;height:30vh;margin-top:23vh;margin-right:28vw;">
+                      <hr color="white" width="60vw">
+                      <p>In the US alone, 3 million people have ocean and coast related jobs in coastal communities.</p>
+                      <hr color="white" width="60vw">
+                    </div>
+                    <div class="textbox" style="height:25vh;margin-top:52vh;margin-left:5vw;">
+                      <p>&#9670; &#9670; &#9670;</p>
+                      <p>Oceans and coasts provide millions of people with jobs and billions of dollars for the economy every year. The jobs are threatened by pollution.</p>
+                      <p>&#9670; &#9670; &#9670;</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Causes 1-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-sm-4">
+                <video class="fullvw" data-autoplay loop muted>
+                  <source data-src="bottleonbeach.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <div class="video-container">
+              <img class="left" style="margin-top:15vh;height:25vh;width:28vw"src="textoutlinewhite2.png">
+              <div class="overlay-desc">
+                <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+                  <a href="navBar.html" class="transition"> &#8779;</a>
+                </span>
+                <div style="margin-top:9vh;margin-left:4.5vw;" class="textbox white_text">
+                  <hr color="white" width="60vw"> <!--Statistics are denoted by a white bar, text, and another white bar-->
+                  <p>8,000,000 metric tons of plastic were dumped into the ocean last year</p>
+                  <hr color="white" width="60vw">
+                </div>
+              </div>
+              <h4 style="margin-top:5vh;font-size:5vw" class="left">the cause of water pollution</h4>
+              <h5 class="left">and harm to water ecosystems</h5>
+              <h5 style="margin-top:10vh"class="right">range from small actions such as throwing a plastic bottle</h5>
+              <h5 class="right">into the ocean to large actions such as oil spills.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Causes 2-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-8 borderbottom">
+                <img style="height:45vh"src="trashmountain.jpeg" alt="mountain of trash">
+              </div>
+              <div class="col-md-4">
+                  <img class="borderleft" src="textoutlineblue.png" style="height:45vh;width:31.8vw;">
+              </div>
+            </div>
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-5">
+                <video style="height:53vh;" data-autoplay loop muted>
+                  <source data-src="emptyintostream.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+              <div class="col-md-4">
+                <img class="borderleft" style="height:53vh;" src="shoppingcartriver.jpg" alt="shopping cart in a river">
+              </div>
+              <div class="col-md-3">
+                <img class="borderleft" style="height:53vh;" src="bikeriver.jpg" alt="bike in river">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="overlay-desc">
+          <span style="float:left;padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+            <a href="navBar.html" class="transition"> &#8779;</a>
+          </span>
+          <div style="margin-left:71vw;margin-top:4vh" class="textbox">
+            <p>&#9670; &#9670; &#9670;</p> <!--Regular information is denoted by three diamonds, text, and three more diamonds-->
+            <p>A lot of different things are being thrown into rivers, lakes, and oceans that don’t belong there.</p>
+            <br>
+            <p>This includes chemicals, oil, industrial waste, radioactive waste, sewage, garbage, and so many more unimaginable things.</p>
+            <p>	&#9670; &#9670; &#9670;</p>
+          </div>
+          <div class="video-container">
+            <img style="margin-left:10vw;margin-top:7vh;height:25vh;width:29vw" src="textoutlinewhite2.png">
+            <div style="margin-left:12vw;margin-top:7.5vh"class="overlay-desc">
+              <div class="textbox white_text">
+                <hr color="white" width="60vw">
+                <p>70% of industrial waste is dumped, untreated, into the water in developing countries.</p>
+                <hr color="white" width="60vw">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Causes 3-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-7">
+                <img class="fullvw" src="deadfish.jpg" alt="dead fish">
+              </div>
+              <div class="col-md-5">
+                  <img src="textoutlinewhite.png" style="margin-top:4vh;padding:5vh;height:48vh;width:35vw;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay-desc">
+          <div class="video-container">
+            <img class="left" style="margin-top:55vh;height:25vh;width:28vw"src="textoutlinewhite2.png">
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div style="margin-right:10vw;float:right;margin-top:8vh" class="textbox white_text">
+              <p>&#9670; &#9670; &#9670;</p>
+              <p>The increasingly risky development of industry is contaminating our water.</p>
+              <br>
+              <p>Industries dump toxic waste into oceans, lakes, and rivers. Chemicals released by mining mixes with water to form harmful substances.</p>
+              <p>	&#9670; &#9670; &#9670;</p>
+            </div>
+            <div style="clear:both;padding-top:0.01vh;margin-left:4.5vw;" class="textbox white_text">
+              <hr color="white" width="60vw">
+              <p>In Colorado, 23,000 abandoned mines have polluted 2,300 kilometers of streams.</p>
+              <hr color="white" width="60vw">
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Solution 1-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-md-12">
+                <video class="fullvw borderbottom" data-autoplay loop muted>
+                  <source data-src="cliffwater.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <h4 style="margin-top:50vh" class="right">so what can you do?<h4>
+          </div>
+        </div>
+      </div>
+<!--Solution 2-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-8">
+                <img class="fullvh" src="waterspouts.jpg" alt="water fountains">
+              </div>
+              <div class="col-md-4">
+                <img class="borderleft borderbottom" style="height:53vh;" src="recycle.jpg" alt="recycling bins">
+              </div>
+              <div class="col-md-4">
+                <video class="borderleft" style="height:48vh;" data-autoplay loop muted>
+                  <source data-src="litter.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div class="video-container">
+              <img class="left" style="float:left;height:44vh;width:30vw;margin-top:37vh" src="textoutlinewhite.png">
+              <div class="overlay-desc">
+                <div style="margin-top:39vh;margin-left:5.25vw;" class="textbox white_text">
+                  <p>&#9670; &#9670; &#9670;</p>
+                  <p>You can reuse, reduce, recycle.</p>
+                  <br>
+                  <p>Make sure to use reusable plastic products and less water. Take short showers instead of baths, turn off the water when you brush your teeth, fix any leaks, and use your own bags when you go the store. </p>
+                  <p>&#9670; &#9670; &#9670;</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-container">
+              <img class="left" style="height:24vh;width:25vw;margin-top:0vh;margin-left:7vw" src="textoutlinewhite2.png">
+              <div class="overlay-desc">
+                <div style="margin-top:0vh;margin-left:42.5vw;" class="textbox2 white_text">
+                  <hr color="white" width="60vw">
+                  <p>The U.S. produces 25% of the world's trash but only recycles 34% of it.</p>
+                  <hr color="white" width="60vw">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Solution 3-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-4">
+                <img style="height:45vh;" src="trashfield.jpg" alt="trash field">
+              </div>
+              <div class="col-md-4">
+                <img class="borderleft" style="height:45vh;" src="liquorbottle.jpg" alt="case of alcohol bottles">
+              </div>
+              <div class="col-md-4">
+                <img class="borderleft" style="height:45vh;width:31.8vw;" src="textoutlineblue.png">
+              </div>
+            </div>
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-8">
+                <video style="height:54vh;" data-autoplay loop>
+                  <source data-src="partygarbagehalf.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+              <div class="col-md-4">
+                <img class="borderleft" style="height:54vh" src="garbagebag.jpg" alt="garbage bag">
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="float:left;padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div style="margin-left:71vw;margin-top:3.5vh"class="textbox">
+              <p>&#9670; &#9670; &#9670;</p>
+              <p>Clean up garbage</p>
+              <br>
+              <p>Clean up garbage in your neighborhood and on beaches because it could end up in your water supply. Make sure to dispose of hazardous materials</p>
+              <p>&#9670; &#9670; &#9670;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Solution 4-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-7">
+                <img class="halfvh" src="bins.jpg" alt="bins">
+              </div>
+              <div class="col-md-5">
+                <video class="halfvh borderleft" data-autoplay loop muted>
+                  <source data-src="socialmedia.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+            <div class="row no-gutters borderbottom">
+              <div class="col-md-4">
+                <img style="height:43vh;width:32.8vw" src="textoutlineblue.png">
+              </div>
+              <div class="col-md-5">
+                <img style="height:45vh" class="borderleft" src="garbagecan.jpg" alt="garbage bags">
+              </div>
+              <div class="col-md-3">
+                <img style="height:45vh" class="halfvh borderleft" src="donations.jpg" alt="donations">
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div style="margin-left:5vw;margin-top:46vh"class="textbox">
+              <p>&#9670; &#9670; &#9670;</p>
+              <p>Take action.</p>
+              <br>
+              <p>Tell others about the cause and share it on social media. Donate to reputable charities with water conservation efforts. Find other activites, such as online petitions.</p>
+              <p>&#9670; &#9670; &#9670;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Conclusion-->
+      <div class="section">
+        <div class="video-container">
+          <div class="container-fluid">
+            <div class="row no-gutters">
+              <div class="col-sm-1">
+                <video class="fullvw" data-autoplay loop>
+                  <source data-src="conclusion2.mp4" type="video/mp4">
+                    Your browser does not support this streaming content.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <div class="video-container">
+              <img class="center" style="height:57vh;width:54vw;margin-top:15vh;margin-left:23vw" src="textoutlinewhite2.png">
+            </div>
+          </div>
+          <div class="overlay-desc">
+            <span style="padding:4vh;font-size:7vh;cursor:pointer;color:white;text-decoration:none;">
+              <a href="navBar.html" class="transition"> &#8779;</a>
+            </span>
+            <div class="nohover center white_text" style="margin-top:12vh;margin-left:29.5vw;width:40vw;">
+              <p>&#9670; &#9670; &#9670;</p>
+              <p style="font-family:'Raleway',sans-serif;font-size:2vw">Water provides so many things to us, to wildlife, to the earth. We need to treat rivers, lakes, and oceans with respect and be mindful of our actions. By being aware of problems and working together we can help and we can change.</p>
+              <p>&#9670; &#9670; &#9670;</p>
+            </div>
+            <div class="center skip">
+              <a style="margin-top:15vh" href="water.html">CLICK HERE TO GO TO THE WEBSITE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
